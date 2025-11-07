@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:all:*)",
+      "Bash(curl:*)",
+      "Bash(chmod:*)",
+      "Bash(python3:*)",
+      "Bash(echo:*)",
+      "Bash(./update-ngrok.sh https://de9c7011ed4f.ngrok-free.app)",
+      "WebSearch",
+      "WebFetch(domain:ai.google.dev)",
+      "Bash(rm:*)",
+      "Bash(rmdir:*)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
